@@ -1,3 +1,13 @@
+//sudo apt install libcurl4 libcurl4-gnutls-dev libjsoncpp-dev
+// g++ okex.cpp  -lcurl -lcurl-gnutls -ljsoncpp -o okex
+
+// Documentación: 
+// https://www.okex.com/docs/en/#README
+// https://www.okex.com/docs-v5/en/#market-maker-program
+// https://curl.se/libcurl/c/libcurl.html
+// https://github.com/open-source-parsers/jsoncpp/blob/master/example/readFromString/readFromString.cpp
+
+
 #include <iostream>
 #include <sstream>
 #include <curl/curl.h>
